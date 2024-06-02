@@ -264,7 +264,7 @@ hr {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 1%;
   /*margin-bottom: 1rem;*/
 }
 
@@ -398,7 +398,6 @@ figure {
 }
 
 img, svg {
-  object-fit: cover!important;
   height: 100%;
   width: 100%;
   vertical-align: sub;
@@ -3680,9 +3679,9 @@ textarea.form-control-lg {
 }
 
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
-  color: var(--bs-btn-active-color);
-  background-color: var(--bs-secondary-color);
-  border-color: var(--bs-secondary-color);
+  color: #ffffff;
+  background-color: #7D5BA6;
+  border-color: #7D5BA6;
 }
 
 .btn-check:checked + .btn:focus-visible, .btn.active:focus-visible, .btn.show:focus-visible, .btn:first-child:active:focus-visible, :not(.btn-check) + .btn:active:focus-visible {
@@ -3706,12 +3705,12 @@ textarea.form-control-lg {
   --bs-btn-bg: #0d6efd;
   --bs-btn-border-color: #0d6efd;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #0b5ed7;
-  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-hover-bg: #7d5ba6;
+  --bs-btn-hover-border-color: #7d5ba6;
   --bs-btn-focus-shadow-rgb: 49,132,253;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #7d5ba6;
-  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-border-color: #7d5ba6;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #0d6efd;
@@ -9326,7 +9325,6 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 3rem!important;
 }
 
 .mb-auto {
@@ -9866,7 +9864,7 @@ textarea.form-control-lg {
 }
 
 .text-info-emphasis {
-  color: var(--bs-info-text-emphasis)!important;
+  color: #0e76a8!important;
 }
 
 .text-warning-emphasis {
@@ -12075,7 +12073,6 @@ textarea.form-control-lg {
 
 @media (min-width:768px) {
   .mt-md-5 {
-    margin-top: 3rem!important;
   }
 }
 
@@ -12244,7 +12241,7 @@ textarea.form-control-lg {
 
 @media (min-width:768px) {
   .p-md-5 {
-    padding: 3rem!important;
+    padding: 2rem!important;
   }
 }
 
@@ -15874,7 +15871,7 @@ textarea.form-control-lg {
 
 @media (min-width:1200px) {
   .fs-4 {
-    font-size: 2rem!important;
+    /*font-size: 2rem!important;*/
   }
 }
 
