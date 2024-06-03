@@ -3680,7 +3680,7 @@ textarea.form-control-lg {
 
 .btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
   color: #ffffff;
-  background-color: #7D5BA6;
+  background-color: #7d5ba6;
   border-color: #7D5BA6;
 }
 
